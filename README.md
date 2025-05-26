@@ -4,19 +4,19 @@
 基于线性回归算法的二手车价格预测系统，通过分析车辆行驶里程与价格的关系构建预测模型。包含完整的数据清洗、可视化分析和模型评估流程。
 ## 目录结构
 
-car-price/
-├── data/
-│    └── used_cars.csv 
-├── car-price.ipynb 
-└── README.md
+car-price/  
+├── data/  
+│    └── used_cars.csv   
+├── car-price.ipynb   
+└── README.md  
 
 ## 依赖包与环境配置
-库名称	功能	建议版本
-pandas	数据读取与清洗	≥1.3.0
-numpy	数值计算与数组操作	≥1.21.0
-scikit-learn	线性回归模型训练	≥1.0.0
-matplotlib	数据可视化（散点图）	≥3.4.0
-seaborn	数据可视化（热力图）	≥0.11.0
+| 库名称	| 功能 | 建议版本 |
+| pandas |	数据读取与清洗 |	≥1.3.0 |
+| numpy	| 数值计算与数组操作 |	≥1.21.0 |
+| scikit-learn |	线性回归模型训练 |	≥1.0.0 |
+| matplotlib |	数据可视化（散点图） |	≥3.4.0 |
+| seaborn |	数据可视化（热力图） |	≥0.11.0 |
 ## 运行说明
 确保本地有used_cars.csv数据集
 修改代码中pd.read_csv的路径为本地实际路径，例如：df = pd.read_csv('D:/Users/Desktop/car-price/data/used_cars.csv')。
