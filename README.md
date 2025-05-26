@@ -5,13 +5,9 @@
 ## 目录结构
 
 car-price/
-
 ├── data/
-
-│   └── used_cars.csv 
-
+│    └── used_cars.csv 
 ├── car-price.ipynb 
-
 └── README.md
 
 ## 依赖包与环境配置
@@ -29,14 +25,17 @@ seaborn	数据可视化（热力图）	≥0.11.0
 ## 结果说明与截图示例
 运行代码后，将生成以下关键输出：
 1、相关性热力图
+
 ![image](https://github.com/user-attachments/assets/81f75f71-886a-4669-9fe2-e97d54e0fbb3)
 
 展示model_year（车龄）、milage（里程）、price（价格）的皮尔逊相关系数。
 2、模型拟合效果散点图
+
 ![image](https://github.com/user-attachments/assets/884b661d-3004-493d-8479-b2dbade515fc)
 
 蓝色散点为原始数据（里程 - 价格关系），红色直线为线性回归模型的拟合结果。
 3、结果截图
+
 ![image](https://github.com/user-attachments/assets/b69678bb-5aa3-4d60-96c6-1e7dfa69acfa)
 
 终端最后输出对75,000英里车辆的预测价格，可通过修改mileage_new参数预测其他里程的车辆价格：
