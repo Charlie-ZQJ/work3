@@ -19,10 +19,10 @@ car-price/
 | matplotlib |	数据可视化（散点图） |	≥3.4.0 |
 | seaborn |	数据可视化（热力图） |	≥0.11.0 |
 ## 运行说明
-确保本地有used_cars.csv数据集
-修改代码中pd.read_csv的路径为本地实际路径，例如：df = pd.read_csv('D:/Users/Desktop/car-price/data/used_cars.csv')。
-点击全部运行，程序将自动完成以下流程：
-数据读取→清洗→相关性分析→模型训练→效果评估→预测输出。
+确保本地有used_cars.csv数据集  
+修改代码中pd.read_csv的路径为本地实际路径，例如：df = pd.read_csv('D:/Users/Desktop/car-price/data/used_cars.csv')  
+点击全部运行，程序将自动完成以下流程：  
+数据读取→清洗→相关性分析→模型训练→效果评估→预测输出。  
 ## 结果说明与截图示例
 运行代码后，将生成以下关键输出：  
 1、相关性热力图  
