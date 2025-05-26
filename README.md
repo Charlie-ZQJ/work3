@@ -22,9 +22,9 @@ car-price/
 确保本地有used_cars.csv数据集  
 修改代码中pd.read_csv的路径为本地实际路径，例如：df = pd.read_csv('D:/Users/Desktop/car-price/data/used_cars.csv')  
 点击全部运行，程序将自动完成以下流程：  
-数据读取→清洗→相关性分析→模型训练→效果评估→预测输出。  
+数据读取→清洗→相关性分析→模型训练→效果评估→预测输出  
 ## 结果说明与截图示例
-运行代码后，将生成以下关键输出：  
+运行代码后，将生成以下关键输出：    
 1、相关性热力图  
 ![image](https://github.com/user-attachments/assets/81f75f71-886a-4669-9fe2-e97d54e0fbb3)  
 展示model_year（车龄）、milage（里程）、price（价格）的皮尔逊相关系数。
@@ -35,6 +35,6 @@ car-price/
 ![image](https://github.com/user-attachments/assets/b69678bb-5aa3-4d60-96c6-1e7dfa69acfa)  
 终端最后输出对75,000英里车辆的预测价格，可通过修改mileage_new参数预测其他里程的车辆价格
 ## 改进方向
-特征扩展：加入brand（品牌）、condition（车况）等特征，提升模型解释力。  
-模型优化：使用PolynomialFeatures进行多项式回归，捕捉非线性关系。  
+特征扩展：加入brand（品牌）、condition（车况）等特征，提升模型解释力  
+模型优化：使用PolynomialFeatures进行多项式回归，捕捉非线性关系  
 
